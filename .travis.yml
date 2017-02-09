@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: SLnAilMILOVrfiLSMCI8oIu3Mgu+jglUtQhR6bLHmbkahcAsX/GtSNSZZ56bJqFVDmeXUHq00LUVJYs34elpzQWT/bftesiAYA714hZYVAFZtGgFms8Dee3ef86xc7B2jKHPIR88VnQQiNoqTvoAoS7KKWaC3uTP6/3nT1iH1OicuUMFqssUuipH/IcI0FCyvUNXN3SS0Fgw3GoFB48NmNDI71TT6Rhw+jAUWEuW5DxHGDl/k5LfCbrrblNEK5m8nVQjVdS/enqsLVTSzHLoKne0mHgKXO/GGz1l+iIsa2pntTYEqzN/n0eGmtlSkyTrt4WJJYlmdfwg/LVk0eHVlXS+Jh75iKEh0+pwXH7bC92poHkjw82Y1Zms9DamxIpEwL55WuS2a07AY43KFcKpQimlMJTXlyF+w/Th0Bo2b+eqj34xvLYiCQqeaG3VQXBhuh0om31G74Y2NkJP6f5AzX56SxcjGGn2SI836//8usCZkZtYV1oVDN6GkbynKlAY8VZwvOI6kkjBn2vinNSBmI+yhwjT1aHYPpp8aceM0wsXGez6Nd1Ng/QYdXs6fPdpUeHrRXPFBSbpx47WC74K0W0bIAGPQD4xF6MlSDBiROIf7ccA+R1EqlEW2ud7hppOz8qyUiV17HGxvhkAyOkFCCY6RCMG763cvjIGKUWzwTI=
+  app: pacific-wave-42054
+  on:
+    repo: jww52/clayton_lwt
